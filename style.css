@@ -55,11 +55,23 @@ main{
 
 }
 
+.main__button:hover{
+    color: var(--body-bg-color);
+    background-color: #e5cffa;
+}
+
 .main__icons{
     margin-top: 2rem;
     display: flex;
     justify-content: space-around;
 }
+
+.main__icons img{
+    cursor: pointer;
+}
+
+
+
 
 @media screen and (max-width:768px) {
     
